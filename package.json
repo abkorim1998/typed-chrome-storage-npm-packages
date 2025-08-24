@@ -1,0 +1,21 @@
+{
+  "name": "typed-chrome-storage",
+  "version": "1.0.0",
+  "description": "totally type safe chrome storage",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "npm run build && changeset publish",
+    "lint": "tsc"
+  },
+  "author": "abkorim1998",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.6",
+    "@types/chrome": "^0.1.4",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}
