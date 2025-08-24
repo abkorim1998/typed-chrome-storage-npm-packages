@@ -12,6 +12,9 @@
   },
   "author": "abkorim1998",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.29.6",
     "@types/chrome": "^0.1.4",
