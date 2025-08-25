@@ -1,10 +1,11 @@
 # @oryno/typed-chrome-storage
 
-## 1.0.3
+## 1.0.4
 
 ### Patch Changes
 
 - a5cbfb3: read me file added
+- readme has changed
 
 ## 1.0.2
 
