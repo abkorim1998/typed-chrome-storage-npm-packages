@@ -2,7 +2,8 @@
 
 This package is a fork of [typed-chrome-storage](https://github.com/abkorim1998/typed-chrome-storage).
 
-```
+````ts
+
 import { ChromeStorage } from "@oryno/typed-chrome-storage"
 
 export const storage = new ChromeStorage<TSettings>({
@@ -39,3 +40,5 @@ const { status, keyWordList, currentKeyWordPosition } = await storage.getSetting
 storage.watchSettings(['status', 'keyWordList', 'currentKeyWordPosition'], (changes) => {
     console.log('Settings changed:', changes);
 });
+
+````

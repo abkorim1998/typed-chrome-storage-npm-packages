@@ -1,6 +1,6 @@
 {
   "name": "@oryno/typed-chrome-storage",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "totally type safe chrome storage",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
